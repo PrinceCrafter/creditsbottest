@@ -1,4 +1,5 @@
-const prefix = "1";
+const fs = require("fs")
+const prefix = "-";
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
