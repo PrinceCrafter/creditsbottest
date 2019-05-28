@@ -14,7 +14,7 @@ client.user.setGame(`credit bot test by prince : ${client.guilds.size}`,"http://
 client.user.setStatus("dnd")
  
 });
-
+/*
 let profile = JSON.parse(fs.readFileSync("./profile.json", "utf8"))
 client.on("message", message => {
   if (message.author.bot) return;
@@ -117,5 +117,5 @@ mentionned.send(` :credit_card: | Transfer Receipt \`\`\`You have received ${arg
 }
 
 });
-
+*/
 client.login(process.env.TOKEN);
